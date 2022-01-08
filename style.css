@@ -1,0 +1,103 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    }
+.orange-color{
+    color:orange;
+    }
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+
+.flexible-container{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+#header-border{
+    border-left: 3px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+    margin-top: 0;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+.small-space{
+    margin-top: 30px;
+    display: block;
+}
+.one-third{
+    display: flex;
+    padding: 5%;
+
+}
+.one-third img{
+    width: 50%;
+}
+.container-box{
+    
+    width: 90%;
+    padding: 2%;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+#third-one-color{
+    background-color: lightblue;
+}
+#third-two-color{
+    background-color: moccasin;
+}
+#third-three-color{
+    background-color: skyblue;
+}
+#mission-header{
+    text-align: center;
+}
+.my-mission{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#dev-limit-image{
+    width: 30%;
+}
+.dev-limit-section{
+    background-image: url(/images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer h2{
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+    
+}
+footer p{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
